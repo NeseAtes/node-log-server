@@ -1,4 +1,5 @@
 var moment = require("moment");
+console.log('test pm2');
 
 
 var IndexAction = function(req, res, next) {
