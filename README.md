@@ -1,7 +1,7 @@
 # node-log-server
 
 
-##Install Project
+## Install Project
 
 -Firstly, install this project: `https://github.com/TRabia/node-log-server.git`
 
@@ -16,12 +16,12 @@
 9. Change directory : `cd config`
 10. Edit service url : `config/ index.js`
 
-##Port and Database Configuration
+## Port and Database Configuration
 
 - You can change the port that the server will listen to. *app.js*
 - You can change your hostname,port password according to the database you are using. *database.js*
 
-##Run Project
+## Run Project
 - *node app.js or npm start* on the command line.
 
 
