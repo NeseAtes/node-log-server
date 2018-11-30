@@ -17,6 +17,16 @@ connection.query('CREATE TABLE `' + dbconfig.database + '`.`logs` ( \
 console.log("logs table created...");
 
 
+connection.query('CREATE TABLE `' + dbconfig.database + '`.`app_detail` ( \
+  `app_id` int(11) NOT NULL AUTO_INCREMENT,  \
+  `app_ip` varchar(30) NOT NULL, \
+  `hostname` varchar(64) NOT NULL, \
+  `version` varchar(15) NOT NULL, \
+  PRIMARY KEY (`app_id`), \
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8');
+console.log("app_detail table created...");
+
+
 console.log('Success: Database Created!')
 
 connection.end();
