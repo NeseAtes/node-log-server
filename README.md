@@ -3,7 +3,7 @@
 
 ## Install Project
 
--Firstly, install this project: `https://github.com/TRabia/node-log-server.git`
+- Firstly, install this project: `https://github.com/TRabia/node-log-server.git`
 
 1. Install packages : `npm install`
 2. Change directory : `cd public`
